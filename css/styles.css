@@ -111,11 +111,12 @@ body {
   margin: 0 auto;
 }
 
-/*.sprite {
+.sprite {
   display: inline-block;
   margin: 5%;
 }
-td {
+
+/*td {
   height: 10px;
   width: 10px;
 }
