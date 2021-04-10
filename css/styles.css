@@ -4,8 +4,6 @@ body {
   width: 100%;
 }
 
-/*
-
 .share__icon {
   width: 32px;
   height: 32px;
@@ -15,7 +13,7 @@ body {
   margin-right: 3px;
 }
 
-.share__icon:last-of-type {
+/*.share__icon:last-of-type {
   margin-right: 0px;
 }
 
