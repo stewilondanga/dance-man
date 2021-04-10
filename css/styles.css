@@ -105,12 +105,13 @@ body {
   transition-delay: 0.4s;
 }
 
-/*.wrapper {
+.wrapper {
   text-align: center;
   width: 80%;
   margin: 0 auto;
 }
-.sprite {
+
+/*.sprite {
   display: inline-block;
   margin: 5%;
 }
