@@ -116,11 +116,12 @@ body {
   margin: 5%;
 }
 
-/*td {
+td {
   height: 10px;
   width: 10px;
 }
-.bg {
+
+/*.bg {
   background-color: #ff6161;
 }
 .blue {
