@@ -214,24 +214,29 @@ td {
   }
 }
 
-/*@-o-keyframes walking-1 {
+@-o-keyframes walking-1 {
   0% {
     opacity: 0;
   }
+
   30% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   70% {
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
 }
-@keyframes walking-1 {
+
+/*@keyframes walking-1 {
   0% {
     opacity: 0;
   }
