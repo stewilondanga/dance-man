@@ -302,24 +302,29 @@ td {
   }
 }
 
-/*@-o-keyframes walking-2 {
+@-o-keyframes walking-2 {
   0% {
     opacity: 1;
   }
+
   20% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   80% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
-@keyframes walking-2 {
+
+/*@keyframes walking-2 {
   0% {
     opacity: 1;
   }
