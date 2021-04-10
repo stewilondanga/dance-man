@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -106,6 +106,200 @@ body {
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
 }
+
+body {
+  background: #ff6161;
+  font-size: 0px;
+  width: 100%;
+}
+.wrapper {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.sprite {
+  display: inline-block;
+  margin: 5%;
+}
+td {
+  height: 10px;
+  width: 10px;
+}
+.bg {
+  background-color: #ff6161;
+}
+.blue {
+  background-color: #00f;
+}
+.red {
+  background-color: #ff6161;
+}
+.green {
+  background-color: #0f0;
+}
+.white {
+  background-color: #fff;
+}
+.black {
+  background-color: #000;
+}
+.gray-light {
+  background-color: #999;
+}
+.gray-dark {
+  background-color: #666;
+}
+.sprite--walking {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.sprite--walking-2 {
+  opacity: 0;
+  animation: walking-1 0.8s infinite;
+}
+.sprite--walking-3 {
+  opacity: 0;
+  animation: walking-2 0.8s infinite;
+  transform: scaleX(-1);
+}
+@-moz-keyframes walking-1 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes walking-1 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes walking-1 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes walking-1 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes walking-2 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes walking-2 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes walking-2 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes walking-2 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 #contact h1 {
   font-family: helvetica;
