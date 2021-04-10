@@ -153,12 +153,13 @@ td {
   background-color: #666;
 }
 
-/*.sprite--walking {
+.sprite--walking {
   position: absolute;
   top: 5%;
   left: 5%;
 }
-.sprite--walking-2 {
+
+/*.sprite--walking-2 {
   opacity: 0;
   animation: walking-1 0.8s infinite;
 }
