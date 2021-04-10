@@ -145,10 +145,11 @@ td {
   background-color: #000;
 }
 
-/*.gray-light {
+.gray-light {
   background-color: #999;
 }
-.gray-dark {
+
+/*.gray-dark {
   background-color: #666;
 }
 .sprite--walking {
