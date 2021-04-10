@@ -149,10 +149,11 @@ td {
   background-color: #999;
 }
 
-/*.gray-dark {
+.gray-dark {
   background-color: #666;
 }
-.sprite--walking {
+
+/*.sprite--walking {
   position: absolute;
   top: 5%;
   left: 5%;
