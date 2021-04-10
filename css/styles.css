@@ -159,11 +159,12 @@ td {
   left: 5%;
 }
 
-/*.sprite--walking-2 {
+.sprite--walking-2 {
   opacity: 0;
   animation: walking-1 0.8s infinite;
 }
-.sprite--walking-3 {
+
+/*.sprite--walking-3 {
   opacity: 0;
   animation: walking-2 0.8s infinite;
   transform: scaleX(-1);
